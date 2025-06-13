@@ -1,0 +1,5 @@
+Array
+Corner cases : 
+- Array is empty.
+- Array has negative numbers.
+- Array has duplicates.

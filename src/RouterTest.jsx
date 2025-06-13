@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 const RouterTest = () => {
     const Home = () => {
@@ -8,15 +9,17 @@ const RouterTest = () => {
         return <div>Welcome to About Page</div>
     }
   return (
-    <>
-    <div>RouterTest</div>
     <Router>
+    <div>RouterTest</div>
+        <ul style={{display: 'flex', gap: '1rem'}}>
+            <li><Link to='/'>Home</Link></li>
+            <li><Link to='/about'>About</Link></li>
+        </ul>
         <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         </Routes>
     </Router>
-    </>
   )
 }
 
