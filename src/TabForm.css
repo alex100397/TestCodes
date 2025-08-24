@@ -1,0 +1,15 @@
+.tab-form{
+    display: flex;
+}
+
+.tab{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.has-error{
+    color: red;
+}

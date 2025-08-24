@@ -1,8 +1,10 @@
-import Accordion from './Accordion';
+// import Accordion from './Accordion';
+// import AgeCalculator from './AgeCalculator';
 import './App.css'
-import BlogPosts from './BlogPosts'
-import ContactForm from './ContactForm'
-import Recipe from './Recipe'
+import TabForm from './TabForm';
+// import BlogPosts from './BlogPosts'
+// import ContactForm from './ContactForm'
+// import Recipe from './Recipe'
 // import { removeDuplicattes } from './RemoveDuplicateFromArray';
 // import Capitalize from './Capitalize'
 // import FindMaxNum from './FindMaxNum'
@@ -56,7 +58,9 @@ function App() {
     {/* <BlogPosts /> */}
     {/* <ContactForm /> */}
     {/* <Recipe /> */}
-    <Accordion items={items} />
+    {/* <Accordion items={items} /> */}
+    {/* <AgeCalculator /> */}
+    <TabForm />
     </div>
   )
 }
